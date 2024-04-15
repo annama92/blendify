@@ -1,0 +1,2 @@
+# blendify
+Spotify Playlist Curator
