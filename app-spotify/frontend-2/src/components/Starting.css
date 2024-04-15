@@ -1,0 +1,77 @@
+.container {
+    background-image: url("./images/startingbg.png");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    /* line-height: 10px; */
+    /* letter-spacing: -0.02em; */
+    color: #ffffff;
+    margin: 0.25em;
+}
+
+.Subtitle {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 525;
+    font-size: 39px;
+    /* letter-spacing: -0.02em; */
+
+    color: #ffffff;
+}
+
+.StartButton {
+
+    margin: 1em;
+    cursor: pointer;
+    /* display: inline-block; */
+    /* line-height: 108px; */
+
+    /* attempt to make the position of the button adjust according to screen size */
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    /* display: table-cell; */
+    vertical-align: middle;
+
+    background: #ffffff;
+    border-radius: 30px;
+    border: 0px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 73px;
+    letter-spacing: -0.02em;
+    color: #89c5cc;
+    text-decoration: none;
+}
+
+.StartButton:hover {
+    background: #89c5cc;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 73px;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    transition: background-color 0.5s ease;
+}

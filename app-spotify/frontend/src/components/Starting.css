@@ -1,0 +1,165 @@
+.container {
+  background-image: url("./images/startingbg.png");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Title {
+  /* position: relative;
+  /* width: 768px;
+  height: 108px; */
+  /* left: 400px; */
+  /* top: 50px; */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 10px;
+  /* display: flex; */
+  /* align-items: center;
+  text-align: center; */
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+
+.Subtitle {
+  position: relative;
+  /* width: 727px;
+  height: 48px; */
+  /* left: 308px; */
+  top: 0px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 525;
+  font-size: 39px;
+  line-height: 0px;
+  display: flex;
+  /* align-items: center; */
+  /* text-align: center; */
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+
+.StartButton {
+  /* position: absolute; */
+  position: relative;
+  width: 200px;
+  height: 80px;
+  /* left: 569px;
+  top: 450px; */
+  top: 50px;
+
+  cursor: pointer;
+  /* display: inline-block; */
+  /* line-height: 108px; */
+
+  /* attempt to make the position of the button adjust according to screen size */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  /* display: table-cell; */
+  vertical-align: middle;
+
+  background: #ffffff;
+  border-radius: 30px;
+  border: 0px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 73px;
+  letter-spacing: -0.02em;
+  color: #89c5cc;
+}
+
+.StartButton:hover {
+  background: #89c5cc;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 73px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+/* .StartText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 73px;
+  display: flex;
+
+  letter-spacing: -0.02em;
+
+  color: #89c5cc;
+}
+
+.CircleBig {
+  position: absolute;
+  width: 900px;
+  height: 900px;
+  left: 630px;
+  top: -200px;
+  border-radius: 450px;
+
+  background: linear-gradient(
+    246.44deg,
+    rgba(137, 197, 204, 0.9) 11.07%,
+    rgba(255, 210, 0, 0.9) 82.63%
+  );
+  transform: rotate(-114.33deg);
+}
+
+.CircleMedium {
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  left: -30px;
+  top: 200px;
+  border-radius: 400px;
+
+  background: linear-gradient(
+    197.63deg,
+    rgba(237, 22, 83, 0.8) 14.28%,
+    rgba(255, 210, 0, 0.8) 83.79%
+  );
+  transform: rotate(-132.24deg);
+}
+
+.CircleSmall {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  left: 400px;
+  top: 50px;
+  border-radius: 175px;
+
+  background: linear-gradient(
+    197.63deg,
+    rgba(255, 210, 0, 0.7) 14.28%,
+    rgba(0, 159, 198, 0.7) 72.13%
+  );
+  transform: rotate(-29.63deg);
+} */
+
+.text {
+  margin-left: auto;
+  margin-right: auto;
+}

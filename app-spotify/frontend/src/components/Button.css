@@ -1,0 +1,50 @@
+.container {
+    background-image:
+        url("./images/sliderblackbg.png");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 60px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    width: 50%;
+    padding: 0.5em;
+}
+
+.button-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100vw;
+    margin: none;
+    padding: none;
+}
+
+.button {
+    width: 40%;
+    background-color: white;
+    color: #89C5CC;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    border: none;
+    border-radius: 0.75em;
+    margin: 0.35em;
+    padding: 0.5em;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: background-color 0.5s ease;
+}

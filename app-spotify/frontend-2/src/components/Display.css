@@ -1,0 +1,149 @@
+
+.container-display {
+    width: 100%;
+    background-color: black;
+    padding-bottom: 50px;
+}
+
+.wfn {
+    width: 98px;
+    height: 51px;
+    margin-top: 8vh;
+    margin-left: 8vh;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    margin: 15vh 0;
+}
+
+.playlist-container {
+    margin: auto;
+    width: 80%;
+}
+
+.react-spotify-tracks-playlist {
+    font-family: "Gotham Medium", sans-serif;
+    font-size: 16px;
+}
+
+.text {
+    margin: 0%;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 52px;
+    padding-top: 2%;
+    font-weight: bold;
+}
+
+.album-art {
+    float: left;
+    width: 164.79px;
+    height: 165.21px;
+    margin-right: 10%;
+}
+
+.Add {
+    width: 156px;
+    height: 28px;
+    left: 386px;
+    top: 349px;
+
+    color: white;
+    background: #ad1bb0;
+    border-radius: 32px;
+    font-family: "Inter", sans-serif;
+    margin: 2%;
+    border: none;
+}
+
+.Add:hover {
+    cursor: pointer;
+}
+
+.New {
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    margin: 0em;
+    padding: 3px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    width: 156px;
+    height: 28px;
+    left: 386px;
+    top: 349px;
+
+    color: white;
+    background: #ad1bb0;
+    border-radius: 32px;
+    font-family: "Inter", sans-serif;
+    margin: 2%;
+    border: none;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.Diff {
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    margin: 0em;
+    padding: 3px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    width: 156px;
+    height: 28px;
+    left: 386px;
+    top: 349px;
+
+    color: white;
+    background: #ad1bb0;
+    border-radius: 32px;
+    font-family: "Inter", sans-serif;
+    margin: 2%;
+    border: none;
+    text-decoration: none;
+    font-size: 14px;
+    justify-content: center;
+}
+
+.Diff:hover {
+    cursor: pointer;
+}
+
+.New:hover {
+    cursor: pointer;
+}
