@@ -1,5 +1,8 @@
 # Spotify Playlist Mixer
 
+## Video Demo
+https://drive.google.com/drive/folders/1j4R6Uk6ob5oLKDPnmoUhM_Agxlyo8mKt?usp=sharing
+
 ## Build
 
 1. Clone the repository with `git clone https://github.com/WFN-Projects/app-spotify`.
