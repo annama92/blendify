@@ -1,4 +1,6 @@
 # Spotify Playlist Mixer
+## What is Blendify?
+Blendify is a full-stack web application that leverages the Spotify API to dynamically generate playlists from a user’s Liked Songs using attribute analysis. Pre-Spotify Mixes, a user who only played their Liked Songs rather than curating various playlists often found themselves in undesirable situations: Imagine you're trying to fall asleep to lofi beats and you're woken up by a thunderous track from Mr. Worldwide. 
 
 ## Video Demo
 https://drive.google.com/drive/folders/1j4R6Uk6ob5oLKDPnmoUhM_Agxlyo8mKt?usp=sharing
